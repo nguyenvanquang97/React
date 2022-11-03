@@ -45,7 +45,7 @@ function ShoppingCart() {
             </div>
           </div>
           {products.length === 0 && (
-                    <p className="fst-italic message">Không có công việc nào trong danh sách</p>
+                    <p className="fst-italic message"> Không có sản phẩm nào trong giỏ hàng</p>
                 )}
           <div className="row shopping-cart">
             {products.length > 0 && (
